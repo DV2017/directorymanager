@@ -19,7 +19,7 @@ class App extends Component {
       <Provider>
         <Router>
           <div className="App">
-            <Header branding="Contact Manager" />
+            <Header branding="Directory Listing" />
             <div className="container">
               <Switch>
                 <Route exact path="/" component={Contacts} />
